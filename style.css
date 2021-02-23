@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(#050924, #08103c);
+  height: 100vh;
+}
+
+body:hover {
+  transition: 500ms ease;
+  background-image: linear-gradient(#52BDCF, #A2C3BF);
+}
+
+.circle {
+  position: absolute;
+  transition: 500ms ease;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #CACACA;
+}
+
+.circle:hover {
+  transition: 500ms ease;
+  background-color: #f9d71c;
+}
+
+.cloud {
+  position: absolute;
+  width: 300px;
+  transform: translate(-70%, -20%);
+  top: 50%;
+  left: 50%;
+  opacity: 0%
+}
+
+.cloud:hover {
+  transition: 500ms ease;
+  opacity: 100%
+}
