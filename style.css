@@ -49,13 +49,13 @@ body > .circle {
   opacity: 0%;
 }
 
-/*
+
 .cloud {
   position: absolute;
   transition: 500ms ease;
-  width: 300px;
-  transform: translate(-70%, -20%);
-  top: 50%;
+  width: 500px;
+  transform: translate(-70%, -200%);
+  top: 500%;
   left: 50%;
   opacity: 0%
 }
