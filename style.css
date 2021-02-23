@@ -27,6 +27,7 @@ body:hover {
 
 .cloud {
   position: absolute;
+  transition: 500ms ease;
   width: 300px;
   transform: translate(-70%, -20%);
   top: 50%;
